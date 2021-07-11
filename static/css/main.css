@@ -1,0 +1,31 @@
+header,
+#main-wrapper { 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+table {
+    display: flex;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    text-align: center;
+}
+.color1 {
+    background-color: darkgreen;
+    width: 50px;
+    height: 50px;
+}
+
+.color2 {
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+}
+
+
+
