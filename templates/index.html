@@ -17,6 +17,7 @@
         {% for i in range(x) %}
         <tr>
             {% for j in range(y or x) %}
+            {# color the remainder is either 1 or 0 odd or even #}
             <td class ='color{{ (i + j)%2 + 1}}'></td>
             {% endfor %}
         </tr>
